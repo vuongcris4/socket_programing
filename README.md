@@ -9,7 +9,8 @@ You can watch the demo and tutorial on YouTube [here](https://www.youtube.com/wa
     git clone https://github.com/vuongcris4/socket_programing.git
     cd FINAL_socket_programing
     ```
-2. ```bash
+2. Go to folder FINAL_socket_programing
+    ```bash
     cd FINAL_socket_programing
     ```
 
