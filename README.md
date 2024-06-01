@@ -7,7 +7,6 @@ You can watch the demo and tutorial on YouTube [here](https://www.youtube.com/wa
 1. Clone the repository:
     ```bash
     git clone https://github.com/vuongcris4/socket_programing.git
-    cd FINAL_socket_programing
     ```
 2. Go to folder FINAL_socket_programing
     ```bash
