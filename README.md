@@ -1,6 +1,6 @@
 ## Socket Programming
 
-You can watch the demo and tutorial on YouTube [here](https://www.youtube.com/watch?v=FJrFyt_zEq0&list=PL4TFznO8yqE0uGW1vj4GXa51Ny-fC72Hf){:target="_blank"}.
+You can watch the demo and tutorial on YouTube [here](https://www.youtube.com/watch?v=FJrFyt_zEq0&list=PL4TFznO8yqE0uGW1vj4GXa51Ny-fC72Hf).
 
 ### Instructions
 
@@ -17,6 +17,6 @@ You can watch the demo and tutorial on YouTube [here](https://www.youtube.com/wa
 
 4. Open multiple terminals to run multiple instances of `TCPClient.py`.
 
-5. If encountering errors while sending or receiving files, visit [https://dlptest.com/ftp-test/](https://dlptest.com/ftp-test/){:target="_blank"} to obtain a new FTP username and password.
+5. If encountering errors while sending or receiving files, visit [https://dlptest.com/ftp-test/](https://dlptest.com/ftp-test/) to obtain a new FTP username and password.
 
 ### If you have any questions or concerns, please contact [Trần Duy Vương](mailto:tranduyvuong100@gmail.com).
