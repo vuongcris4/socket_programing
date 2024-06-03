@@ -30,16 +30,18 @@ class MESSAGE(QMainWindow):
         )
         print(str(response))  # ('FILE path', 'All files (*)')
         send_file_result = my_ftp.send_file(response[0])            # hàm gửi file lên ftp server trong file my_ftp
+        
+        if send_file_result == "Gửi file thành công":   # Nếu upload file lên FTP Server thành công
+            self.txtMessage.setText(f'SEND_FILE: "{os.path.basename(response[0])}"')    #Gõ tên file vô txtMessage
+            self.btnSend.click() # Gửi tên file đến các client khác
+
         alert = QMessageBox()  # Thông báo trạng thái gửi file
         alert.setIcon(QMessageBox.Icon.Warning)
         alert.setWindowTitle("Thông báo")
         alert.setText(str(send_file_result))
         alert.exec()
 
-        if send_file_result == "Gửi file thành công":   # Nếu upload file lên FTP Server thành công
-            self.txtMessage.setText(f'SEND_FILE: "{os.path.basename(response[0])}"')    #Gõ tên file vô txtMessage
-            self.btnSend.click() # Gửi tên file đến các client khác
-
+        
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
